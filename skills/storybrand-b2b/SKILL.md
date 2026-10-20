@@ -1,11 +1,11 @@
 ---
 name: storybrand-b2b
-description: Redacta y revisa textos B2B que lee un cliente o un evaluador externo aplicando el marco narrativo de siete piezas popularizado por Donald Miller — el cliente es el héroe, quien escribe es el guía. Úsala SIEMPRE que el usuario prepare manifestaciones de interés, respuestas a licitaciones o invitaciones a ofertar, propuestas técnicas o económicas, cartas de presentación, entregables, informes o resúmenes ejecutivos para clientes, correos comerciales o de seguimiento, presentaciones de venta, brochures, perfiles de empresa, textos de webs o dashboards que ve el cliente final, o postulaciones laborales y cualquier mensaje donde el usuario se presente ante alguien que debe elegirlo. Úsala aunque no mencione StoryBrand. También aplica a pedidos en inglés de tenders, RFP responses, proposals, client reports o sales follow-ups. No aplica a documentos internos (nómina, contabilidad, código).
+description: Construye marcas y redacta textos B2B con storytelling, aplicando el marco narrativo de siete piezas popularizado por Donald Miller — el cliente es el héroe, la marca es el guía. Úsala SIEMPRE que el usuario quiera definir o mejorar el mensaje de su empresa, producto o marca personal (guion de marca, frase guía o one-liner, eslogan, encabezado y estructura de su web, "sobre nosotros", pitch, perfil de LinkedIn, casos de éxito, secuencias de correos de venta, generadores de prospectos) y también cuando prepare manifestaciones de interés, respuestas a licitaciones, propuestas técnicas o económicas, cartas de presentación, entregables, informes o resúmenes ejecutivos para clientes, correos comerciales o de seguimiento, presentaciones de venta, brochures, perfiles de empresa, textos de dashboards que ve el cliente, o postulaciones laborales y cualquier mensaje donde se presente ante alguien que debe elegirlo. Úsala aunque no mencione StoryBrand ni storytelling. También aplica a pedidos en inglés sobre brand messaging, one-liners, website copy, tenders, RFP responses, proposals, client reports o sales follow-ups. No aplica a documentos internos (nómina, contabilidad, código).
 ---
 
 # StoryBrand B2B
 
-**Creada por JuanRojasDev** — skill de código abierto que aplica el marco narrativo de siete piezas descrito por Donald Miller en *Building a StoryBrand* a documentos B2B en español: licitaciones, propuestas, entregables y comunicación comercial. Es un proyecto independiente, sin afiliación ni respaldo de Donald Miller ni de StoryBrand; "StoryBrand" es una marca de sus titulares.
+**Creada por JuanRojasDev** — skill de código abierto que aplica el marco narrativo de siete piezas descrito por Donald Miller en *Building a StoryBrand* para construir el mensaje de una marca y llevarlo a documentos B2B en español: web, pitch, perfil, casos de éxito, licitaciones, propuestas, entregables y comunicación comercial. Es un proyecto independiente, sin afiliación ni respaldo de Donald Miller ni de StoryBrand; "StoryBrand" es una marca de sus titulares.
 
 **Licencia:** CC BY 4.0 — puedes compartirla y adaptarla para cualquier fin, dando crédito.
 
@@ -35,7 +35,16 @@ Una buena historia comercial tiene siete piezas. El **cliente** es el protagonis
 
 **Frase guía (one-liner)**: problema → solución → resultado para el cliente, en una o dos frases. Escríbela primero; si no sale clara, el documento tampoco lo estará.
 
-## Flujo de trabajo
+## Dos modos
+
+Decide primero qué pide el usuario:
+
+- **Modo marca — construir el mensaje.** El usuario quiere definir o mejorar cómo se presenta su empresa, producto o marca personal: guion de marca, frase guía, web, pitch, "sobre nosotros", LinkedIn, casos de éxito, correos de venta. Lee `references/construir-marca.md` y sigue sus pasos (entrevista corta → guion de marca → frase guía → piezas derivadas → consistencia).
+- **Modo documento — aplicar el mensaje a un documento concreto.** Licitación, propuesta, informe, correo, presentación o postulación. Sigue el flujo de trabajo de abajo.
+
+Si el usuario ya tiene un guion de marca o una frase guía, úsalos en el modo documento: el vocabulario de la marca debe ser el mismo en todas sus piezas.
+
+## Flujo de trabajo (modo documento)
 
 1. **Identifica el tipo de documento y sus reglas fijas.** Si hay pliego, términos de referencia, formato obligatorio o límite de páginas, eso manda. El marco solo se aplica en las partes con libertad de redacción (carta, resumen ejecutivo, comprensión del problema, enfoque metodológico, valor agregado, cierre). Nunca cambies, omitas ni reordenes requisitos formales por "contar mejor la historia". Lee `references/tipos-de-documento.md` para la guía del tipo de documento concreto.
 2. **Arma el guion del cliente** (borrador interno): las siete piezas en una línea cada una, más la frase guía. Cuando el documento es importante (licitación, propuesta, entregable clave), muéstraselo al usuario en 7–8 líneas antes del texto largo; corregir el rumbo ahí es barato.
@@ -94,4 +103,5 @@ Al entregar, añade 2–3 líneas indicando qué marcadores `[ ]` debe completar
 
 ## Material de referencia
 
+- `references/construir-marca.md` — modo marca: entrevista, guion de marca, frase guía, piezas derivadas (web, pitch, perfil, correos, generador de prospectos), consistencia, casos de éxito y marca personal.
 - `references/tipos-de-documento.md` — cómo aplicar el marco en cada tipo de documento (manifestación de interés, propuesta técnica, entregable o informe, correo comercial, presentación o perfil de empresa, web o dashboard, postulación personal) y notas de contratación pública. Léelo en el paso 1 del flujo.

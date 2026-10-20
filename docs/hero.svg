@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
+  <title id="t">StoryBrand B2B</title>
+  <desc id="d">Tu cliente es el héroe. Tu marca es el guía. Un camino va del cliente, pasa por la brújula del guía y llega a la bandera del éxito.</desc>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .title { font-size: 56px; font-weight: 700; fill: #1F2328; }
+    .lead { font-size: 26px; fill: #2F3A44; }
+    .body { font-size: 18px; fill: #57606A; }
+    .chip { font-size: 14px; font-weight: 600; fill: #0E5E4E; }
+    .lbl { font-size: 15px; font-weight: 600; fill: #3D4650; }
+    @keyframes walk { from { stroke-dashoffset: 520; } to { stroke-dashoffset: 0; } }
+    .route { stroke-dasharray: 520; animation: walk 3.5s ease-out both; }
+    @media (prefers-reduced-motion: reduce) { .route { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <rect x="1" y="1" width="1198" height="358" rx="20" fill="#FBFAF7" stroke="#E6E2D8" stroke-width="2"/>
+
+  <text x="64" y="128" class="title">StoryBrand B2B</text>
+  <text x="64" y="180" class="lead">Tu cliente es el héroe. Tu marca es el guía.</text>
+  <text x="64" y="228" class="body">Storytelling para construir tu marca y escribir propuestas, informes</text>
+  <text x="64" y="254" class="body">y licitaciones que se entienden en cinco segundos.</text>
+
+  <rect x="64" y="284" width="148" height="32" rx="16" fill="#E3F1EC"/>
+  <text x="138" y="305" class="chip" text-anchor="middle">Skill de Claude</text>
+  <rect x="224" y="284" width="96" height="32" rx="16" fill="#E3F1EC"/>
+  <text x="272" y="305" class="chip" text-anchor="middle">Español</text>
+  <rect x="332" y="284" width="108" height="32" rx="16" fill="#E3F1EC"/>
+  <text x="386" y="305" class="chip" text-anchor="middle">CC BY 4.0</text>
+
+  <path d="M 800 292 C 890 292, 870 196, 960 196 S 1050 104, 1110 96" fill="none" stroke="#D9D3C5" stroke-width="10" stroke-linecap="round"/>
+  <path class="route" d="M 800 292 C 890 292, 870 196, 960 196 S 1050 104, 1110 96" fill="none" stroke="#0E7C66" stroke-width="4" stroke-linecap="round"/>
+
+  <circle cx="800" cy="248" r="11" fill="#1F2328"/>
+  <rect x="789" y="262" width="22" height="30" rx="9" fill="#1F2328"/>
+  <text x="800" y="322" class="lbl" text-anchor="middle">Cliente</text>
+
+  <circle cx="960" cy="196" r="20" fill="#FFFFFF" stroke="#0E7C66" stroke-width="3"/>
+  <polygon points="960,181 966,196 960,211 954,196" fill="#0E7C66"/>
+  <circle cx="960" cy="196" r="3" fill="#FFFFFF"/>
+  <text x="960" y="240" class="lbl" text-anchor="middle">Guía</text>
+
+  <line x1="1110" y1="96" x2="1110" y2="46" stroke="#1F2328" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="1110,46 1146,58 1110,70" fill="#E0A82E"/>
+  <text x="1110" y="126" class="lbl" text-anchor="middle">Éxito</text>
+</svg>

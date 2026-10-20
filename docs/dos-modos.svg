@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-labelledby="t d">
+  <title id="t">Dos modos de la skill</title>
+  <desc id="d">Primero el modo marca construye el mensaje: guion de marca, frase guía, web y pitch, casos de éxito. Luego el modo documento usa ese mismo mensaje en licitaciones, propuestas, informes, correos y postulaciones.</desc>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .h { font-size: 24px; font-weight: 700; fill: #1F2328; }
+    .s { font-size: 15px; fill: #57606A; }
+    .i { font-size: 18px; fill: #2F3A44; }
+    .a { font-size: 15px; font-weight: 600; fill: #0E7C66; }
+  </style>
+  <rect x="1" y="1" width="1198" height="378" rx="20" fill="#FBFAF7" stroke="#E6E2D8" stroke-width="2"/>
+
+  <rect x="60" y="48" width="480" height="284" rx="16" fill="#FFFFFF" stroke="#0E7C66" stroke-width="2"/>
+  <text x="92" y="94" class="h">1 · Modo marca</text>
+  <text x="92" y="120" class="s">Construye el mensaje una sola vez</text>
+  <g class="i">
+    <circle cx="100" cy="162" r="5" fill="#0E7C66"/><text x="116" y="168">Guion de marca (las siete piezas)</text>
+    <circle cx="100" cy="202" r="5" fill="#0E7C66"/><text x="116" y="208">Frase guía en una o dos frases</text>
+    <circle cx="100" cy="242" r="5" fill="#0E7C66"/><text x="116" y="248">Web, pitch, perfil y LinkedIn</text>
+    <circle cx="100" cy="282" r="5" fill="#0E7C66"/><text x="116" y="288">Casos de éxito y correos de venta</text>
+  </g>
+
+  <line x1="552" y1="190" x2="640" y2="190" stroke="#0E7C66" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="640,180 660,190 640,200" fill="#0E7C66"/>
+  <text x="606" y="172" class="a" text-anchor="middle">mismo</text>
+  <text x="606" y="222" class="a" text-anchor="middle">mensaje</text>
+
+  <rect x="672" y="48" width="468" height="284" rx="16" fill="#FFFFFF" stroke="#1F2328" stroke-width="2"/>
+  <text x="704" y="94" class="h">2 · Modo documento</text>
+  <text x="704" y="120" class="s">Lo lleva a cada pieza que lee el cliente</text>
+  <g class="i">
+    <circle cx="712" cy="162" r="5" fill="#1F2328"/><text x="728" y="168">Licitaciones y manifestaciones de interés</text>
+    <circle cx="712" cy="202" r="5" fill="#1F2328"/><text x="728" y="208">Propuestas técnicas y económicas</text>
+    <circle cx="712" cy="242" r="5" fill="#1F2328"/><text x="728" y="248">Informes y resúmenes ejecutivos</text>
+    <circle cx="712" cy="282" r="5" fill="#1F2328"/><text x="728" y="288">Correos, presentaciones y postulaciones</text>
+  </g>
+</svg>

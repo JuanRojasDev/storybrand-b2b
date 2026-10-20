@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Las siete piezas de la historia</title>
+  <desc id="d">Siete estaciones en un camino: personaje, problema, guía, plan, acción, lo que está en juego y éxito. El cliente recorre el camino; la marca aparece como guía.</desc>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .h { font-size: 26px; font-weight: 700; fill: #1F2328; }
+    .sub { font-size: 16px; fill: #57606A; }
+    .num { font-size: 20px; font-weight: 700; }
+    .name { font-size: 17px; font-weight: 700; fill: #1F2328; }
+    .q { font-size: 14px; fill: #57606A; }
+    .tag { font-size: 13px; font-weight: 600; }
+    .leg { font-size: 14px; fill: #3D4650; }
+  </style>
+  <rect x="1" y="1" width="1198" height="398" rx="20" fill="#FBFAF7" stroke="#E6E2D8" stroke-width="2"/>
+
+  <text x="64" y="58" class="h">Las siete piezas de la historia</text>
+  <text x="64" y="86" class="sub">El cliente recorre el camino; la marca entra como guía, nunca como protagonista.</text>
+
+  <line x1="100" y1="170" x2="1096" y2="170" stroke="#D9D3C5" stroke-width="6" stroke-linecap="round"/>
+
+  <text x="100" y="130" class="tag" fill="#1F2328" text-anchor="middle">Héroe: tu cliente</text>
+  <text x="432" y="130" class="tag" fill="#0E7C66" text-anchor="middle">Guía: tu marca</text>
+
+  <g text-anchor="middle">
+    <circle cx="100" cy="170" r="26" fill="#FFFFFF" stroke="#1F2328" stroke-width="3"/>
+    <text x="100" y="177" class="num" fill="#1F2328">1</text>
+    <text x="100" y="230" class="name">Personaje</text>
+    <text x="100" y="256" class="q">¿Qué quiere</text>
+    <text x="100" y="276" class="q">el cliente?</text>
+
+    <circle cx="266" cy="170" r="26" fill="#FFFFFF" stroke="#1F2328" stroke-width="3"/>
+    <text x="266" y="177" class="num" fill="#1F2328">2</text>
+    <text x="266" y="230" class="name">Problema</text>
+    <text x="266" y="256" class="q">¿Qué lo frena y</text>
+    <text x="266" y="276" class="q">cómo se siente?</text>
+
+    <circle cx="432" cy="170" r="26" fill="#0E7C66"/>
+    <text x="432" y="177" class="num" fill="#FFFFFF">3</text>
+    <text x="432" y="230" class="name">Guía</text>
+    <text x="432" y="256" class="q">Empatía +</text>
+    <text x="432" y="276" class="q">autoridad</text>
+
+    <circle cx="598" cy="170" r="26" fill="#0E7C66"/>
+    <text x="598" y="177" class="num" fill="#FFFFFF">4</text>
+    <text x="598" y="230" class="name">Plan</text>
+    <text x="598" y="256" class="q">Tres pasos</text>
+    <text x="598" y="276" class="q">claros</text>
+
+    <circle cx="764" cy="170" r="26" fill="#0E7C66"/>
+    <text x="764" y="177" class="num" fill="#FFFFFF">5</text>
+    <text x="764" y="230" class="name">Acción</text>
+    <text x="764" y="256" class="q">Un llamado</text>
+    <text x="764" y="276" class="q">concreto</text>
+
+    <circle cx="930" cy="170" r="26" fill="#FFFFFF" stroke="#B4442F" stroke-width="3"/>
+    <text x="930" y="177" class="num" fill="#B4442F">6</text>
+    <text x="930" y="230" class="name">En juego</text>
+    <text x="930" y="256" class="q">Qué pierde</text>
+    <text x="930" y="276" class="q">si no actúa</text>
+
+    <circle cx="1096" cy="170" r="26" fill="#FFFFFF" stroke="#2E7D32" stroke-width="3"/>
+    <text x="1096" y="177" class="num" fill="#2E7D32">7</text>
+    <text x="1096" y="230" class="name">Éxito</text>
+    <text x="1096" y="256" class="q">Cómo se ve</text>
+    <text x="1096" y="276" class="q">el final feliz</text>
+  </g>
+
+  <circle cx="76" cy="344" r="9" fill="#FFFFFF" stroke="#1F2328" stroke-width="2.5"/>
+  <text x="94" y="349" class="leg">Lo vive el cliente</text>
+  <circle cx="276" cy="344" r="9" fill="#0E7C66"/>
+  <text x="294" y="349" class="leg">Lo aporta tu marca</text>
+  <text x="476" y="349" class="leg">Frase guía = problema → solución → resultado, en una o dos frases.</text>
+</svg>
