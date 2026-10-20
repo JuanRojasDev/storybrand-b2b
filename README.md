@@ -13,7 +13,7 @@
 ## Míralo en acción
 
 <p align="center">
-  <img src="docs/demo.gif" alt="Demostración: una web que decía 'Somos líderes en soluciones ambientales integrales' se convierte en diagnóstico, guion de marca, frase guía y un encabezado nuevo." width="100%">
+  <img src="docs/demo.webp" alt="Demostración: una web que decía 'Somos líderes en soluciones ambientales integrales' se convierte en diagnóstico, guion de marca, frase guía y un encabezado nuevo." width="100%">
   <br>
   <sub>Modo marca, de principio a fin, con una empresa ficticia (acelerado ×2). <a href="docs/demo.mp4">Ver el video completo (MP4)</a>.</sub>
 </p>
@@ -162,13 +162,15 @@ Cada semana con un mensaje confuso es una semana en la que tus clientes eligen a
 
 ## Pruebas
 
-La skill se comparó con Claude sin ella en tres documentos: una manifestación de interés, un resumen ejecutivo para un cliente y un correo de seguimiento comercial. Los criterios fueron verificables: que abra con el cliente, que tenga un plan en pasos y un llamado a la acción concreto, que no invente datos y que respete la extensión adecuada.
+<p align="center">
+  <img src="docs/pruebas.svg" alt="Resultados de la primera corrida de la versión pública: 93,8 % de los criterios con la skill frente a 62,5 % sin ella. Por categoría, con y sin la skill: plan en pasos 100 y 0; abre con el cliente 100 y 75; llamado a la acción 100 y 67; cero datos inventados 100 y 67; extensión adecuada 50 y 0; formato y datos obligatorios 100 y 100." width="100%">
+</p>
 
-| | Con la skill | Sin la skill |
-|---|---|---|
-| Criterios cumplidos (primera ronda) | **100 %** | 63 % |
+La skill se comparó con Claude sin ella en tres documentos: una manifestación de interés, un resumen ejecutivo para un cliente y un correo de seguimiento comercial. Se revisaron 16 criterios verificables: que abra con el cliente, que tenga un plan en pasos y un llamado a la acción concreto, que no invente datos, que respete la extensión y el formato.
 
-La versión pública repitió las pruebas y cumplió todos los criterios después de ajustar la extensión de los correos. El modo marca se probó aparte con el caso de la consultoría ambiental. Son pocas pruebas: tómalo como una señal, no como una garantía.
+En la primera corrida de la versión pública, la skill cumplió **15 de 16 criterios (93,8 %)**, frente a **10 de 16 (62,5 %)** sin ella. Su punto débil fue la extensión: un correo salió demasiado largo. La regla se ajustó y en la siguiente corrida ese correo sí cumplió. El modo marca se probó aparte, con el caso de la consultoría ambiental.
+
+Ninguna herramienta acierta siempre. Son pocas pruebas, evaluadas por el autor: tómalo como una señal, no como una garantía. Si en tu caso no funciona, [cuéntalo en un issue](https://github.com/JuanRojasDev/storybrand-b2b/issues) y se convierte en la siguiente mejora.
 
 ## Qué hay en el repositorio
 
