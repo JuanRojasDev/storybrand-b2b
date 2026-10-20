@@ -10,6 +10,14 @@
   <a href="#nació-en-un-club-de-lectura">El club 2,7</a>
 </p>
 
+## Míralo en acción
+
+<p align="center">
+  <img src="docs/demo.gif" alt="Demostración: una web que decía 'Somos líderes en soluciones ambientales integrales' se convierte en diagnóstico, guion de marca, frase guía y un encabezado nuevo." width="100%">
+  <br>
+  <sub>Modo marca, de principio a fin, con una empresa ficticia (acelerado ×2). <a href="docs/demo.mp4">Ver el video completo (MP4)</a>.</sub>
+</p>
+
 ---
 
 ## ¿Te suena esto?
