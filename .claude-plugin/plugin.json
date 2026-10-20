@@ -1,0 +1,10 @@
+{
+  "name": "storybrand-b2b",
+  "version": "1.0.0",
+  "description": "Client-as-hero (seven-part narrative) writing for B2B tenders, proposals, client reports and sales emails, in Spanish. Independent project, not affiliated with StoryBrand or Donald Miller.",
+  "author": { "name": "JuanRojasDev", "url": "https://github.com/JuanRojasDev" },
+  "homepage": "https://github.com/JuanRojasDev/storybrand-b2b",
+  "repository": "https://github.com/JuanRojasDev/storybrand-b2b",
+  "license": "CC-BY-4.0",
+  "keywords": ["storytelling", "b2b", "proposals", "tenders", "licitaciones", "copywriting", "spanish"]
+}

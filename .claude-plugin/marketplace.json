@@ -1,0 +1,12 @@
+{
+  "name": "storybrand-b2b",
+  "owner": { "name": "JuanRojasDev" },
+  "description": "Client-as-hero writing skill for B2B documents in Spanish: tenders, proposals, client reports and sales follow-ups.",
+  "plugins": [
+    {
+      "name": "storybrand-b2b",
+      "source": ".",
+      "description": "Client-as-hero (seven-part narrative) writing for B2B tenders, proposals, client reports and sales emails, in Spanish."
+    }
+  ]
+}
