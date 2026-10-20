@@ -46,7 +46,7 @@ Si el usuario ya tiene un guion de marca o una frase guía, úsalos en el modo d
 
 ## Flujo de trabajo (modo documento)
 
-1. **Identifica el tipo de documento y sus reglas fijas.** Si hay pliego, términos de referencia, formato obligatorio o límite de páginas, eso manda. El marco solo se aplica en las partes con libertad de redacción (carta, resumen ejecutivo, comprensión del problema, enfoque metodológico, valor agregado, cierre). Nunca cambies, omitas ni reordenes requisitos formales por "contar mejor la historia". Lee `references/tipos-de-documento.md` para la guía del tipo de documento concreto.
+1. **Identifica el tipo de documento y sus reglas fijas.** Si hay pliego, términos de referencia, formato obligatorio o límite de páginas, eso manda. El marco solo se aplica en las partes con libertad de redacción (carta, resumen ejecutivo, comprensión del problema, enfoque metodológico, valor agregado, cierre). Nunca cambies, omitas ni reordenes requisitos formales por "contar mejor la historia". Lee la guía del tipo de documento en `references/documentos/` (lista abajo) antes de redactar; si el documento es para una entidad pública, lee también `references/documentos/contratacion-publica.md`.
 2. **Arma el guion del cliente** (borrador interno): las siete piezas en una línea cada una, más la frase guía. Cuando el documento es importante (licitación, propuesta, entregable clave), muéstraselo al usuario en 7–8 líneas antes del texto largo; corregir el rumbo ahí es barato.
 3. **Separa hechos de propuestas.**
    - *Hechos sobre el pasado o el presente* (proyectos, clientes, cifras, certificaciones, años de experiencia): nunca los inventes. Si no los tienes, deja un marcador visible `[proyecto similar: nombre, cliente, año, resultado]` y dile al usuario qué completar. En contratación, una afirmación no acreditable puede descalificar la oferta o traer consecuencias legales.
@@ -104,4 +104,12 @@ Al entregar, añade 2–3 líneas indicando qué marcadores `[ ]` debe completar
 ## Material de referencia
 
 - `references/construir-marca.md` — modo marca: entrevista, guion de marca, frase guía, piezas derivadas (web, pitch, perfil, correos, generador de prospectos), consistencia, casos de éxito y marca personal.
-- `references/tipos-de-documento.md` — cómo aplicar el marco en cada tipo de documento (manifestación de interés, propuesta técnica, entregable o informe, correo comercial, presentación o perfil de empresa, web o dashboard, postulación personal) y notas de contratación pública. Léelo en el paso 1 del flujo.
+- `references/documentos/` — una guía por tipo de documento; lee solo la que corresponde, en el paso 1 del flujo. Cada una trae lector, qué es fijo y qué es libre, las siete piezas en ese documento, estructura, plantilla, ejemplo, variantes, errores frecuentes, preguntas para el usuario y chequeo específico:
+  - `manifestacion-de-interes.md` — cartas de manifestación de interés en procesos de contratación.
+  - `propuesta-tecnica.md` — propuestas técnicas y económicas, ofertas y respuestas a invitaciones.
+  - `informes-y-entregables.md` — informes de avance, entregables y resúmenes ejecutivos para clientes.
+  - `correos-comerciales.md` — primer contacto, seguimiento tras reunión, reactivación y respuesta a objeciones.
+  - `presentaciones-y-perfiles.md` — presentaciones de venta, brochures, perfiles o portafolios y casos de éxito.
+  - `webs-y-dashboards.md` — páginas de inicio y de servicio, landings, textos de interfaz, estados vacíos y errores.
+  - `postulaciones.md` — hoja de vida, carta o mensaje de postulación, seguimiento con reclutadores, entrevista y negociación.
+  - `contratacion-publica.md` — notas de contratación pública (Colombia como ejemplo): requisitos, veracidad, subsanación. No es asesoría legal.

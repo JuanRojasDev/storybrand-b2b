@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Dos modos de la skill</title>
+  <desc id="d">Primero el modo marca construye el mensaje: guion de marca, frase guía, web y pitch, casos de éxito. Después el modo documento usa ese mismo mensaje en propuestas, informes, licitaciones, correos y postulaciones.</desc>
+  <style>
+    {{FONTFACE}}
+    .d { font-family: "Tomorrow SB", "Segoe UI", sans-serif; font-weight: 600; }
+    .b { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .rise { opacity: 0; animation: up 700ms cubic-bezier(0.23, 1, 0.32, 1) var(--t, 0s) forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    .link { stroke-dasharray: 100; stroke-dashoffset: 100; animation: draw 700ms cubic-bezier(0.23, 1, 0.32, 1) 0.9s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise { animation: none; opacity: 1; transform: none; }
+      .link { animation: none; stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <rect width="1200" height="360" rx="24" fill="#0F4544"/>
+
+  <g class="rise" style="--t:0.1s">
+    <rect x="64" y="44" width="480" height="272" rx="18" fill="#D4E56B"/>
+    <text x="96" y="94" class="d" font-size="24" fill="#0F4544">1 · MODO MARCA</text>
+    <text x="96" y="122" class="b" font-size="16" fill="#1F4B47">Construye el mensaje una sola vez</text>
+    <g class="b" font-size="18" fill="#0F4544">
+      <circle cx="104" cy="164" r="5" fill="#0F4544"/><text x="120" y="170">Guion de marca (las siete piezas)</text>
+      <circle cx="104" cy="202" r="5" fill="#0F4544"/><text x="120" y="208">Frase guía en una o dos frases</text>
+      <circle cx="104" cy="240" r="5" fill="#0F4544"/><text x="120" y="246">Web, pitch, perfil y LinkedIn</text>
+      <circle cx="104" cy="278" r="5" fill="#0F4544"/><text x="120" y="284">Casos de éxito y correos de venta</text>
+    </g>
+  </g>
+
+  <path class="link" pathLength="100" d="M556 180 H640" stroke="#D4E56B" stroke-width="4" stroke-linecap="round"/>
+  <path class="rise" style="--t:1.4s" d="M636 168 L652 180 L636 192" fill="none" stroke="#D4E56B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="604" y="160" class="d rise" style="--t:1.2s" font-size="13" fill="#D4E56B" text-anchor="middle" letter-spacing="1">MISMO</text>
+  <text x="604" y="214" class="d rise" style="--t:1.2s" font-size="13" fill="#D4E56B" text-anchor="middle" letter-spacing="1">MENSAJE</text>
+
+  <g class="rise" style="--t:0.5s">
+    <rect x="664" y="44" width="472" height="272" rx="18" fill="#165553"/>
+    <text x="696" y="94" class="d" font-size="24" fill="#F3EFE4">2 · MODO DOCUMENTO</text>
+    <text x="696" y="122" class="b" font-size="16" fill="#A8C6C0">Lo lleva a cada pieza que lee el cliente</text>
+    <g class="b" font-size="18" fill="#F3EFE4">
+      <circle cx="704" cy="164" r="5" fill="#D4E56B"/><text x="720" y="170">Propuestas y licitaciones</text>
+      <circle cx="704" cy="202" r="5" fill="#D4E56B"/><text x="720" y="208">Informes y resúmenes ejecutivos</text>
+      <circle cx="704" cy="240" r="5" fill="#D4E56B"/><text x="720" y="246">Correos y presentaciones</text>
+      <circle cx="704" cy="278" r="5" fill="#D4E56B"/><text x="720" y="284">Postulaciones y marca personal</text>
+    </g>
+  </g>
+</svg>

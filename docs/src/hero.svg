@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Tu cliente es el héroe. Tu marca, el guía.</title>
+  <desc id="d">Un personaje recorre un camino, pasa junto a la brújula del guía y llega a la bandera; al final aparecen una web, una propuesta y un correo.</desc>
+  <style>
+    {{FONTFACE}}
+    .d { font-family: "Tomorrow SB", "Segoe UI", sans-serif; font-weight: 600; }
+    .b { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: Consolas, "SF Mono", Menlo, monospace; }
+    .rise { opacity: 0; animation: rise 700ms cubic-bezier(0.23, 1, 0.32, 1) var(--t, 0s) forwards; transform-box: fill-box; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    .road { stroke-dasharray: 100; stroke-dashoffset: 100; animation: draw 2.4s cubic-bezier(0.23, 1, 0.32, 1) 0.2s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .lane { opacity: 0; animation: fade 600ms ease 1.6s forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 900ms cubic-bezier(0.23, 1, 0.32, 1) 1.9s both; }
+    @keyframes pulse { 0% { transform: scale(1); opacity: 0.9; } 100% { transform: scale(2.2); opacity: 0; } }
+    .flag { transform-box: fill-box; transform-origin: left center; animation: flag 800ms cubic-bezier(0.23, 1, 0.32, 1) 3.4s both; }
+    @keyframes flag { from { transform: scaleX(0.2); opacity: 0; } to { transform: none; opacity: 1; } }
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .lane, .flag { animation: none; opacity: 1; transform: none; }
+      .road { animation: none; stroke-dashoffset: 0; }
+      .pulse { display: none; }
+      .mover { display: none; }
+      .still { display: inline; }
+    }
+  </style>
+
+  <rect width="1200" height="460" rx="24" fill="#0F4544"/>
+
+  <g class="d" fill="#F3EFE4" font-size="50" letter-spacing="-0.5">
+    <text x="64" y="128" class="rise" style="--t:0.1s">TU CLIENTE</text>
+    <text x="64" y="186" class="rise" style="--t:0.19s">ES EL HÉROE.</text>
+    <text x="64" y="244" class="rise" style="--t:0.28s" fill="#D4E56B">TU MARCA, EL GUÍA.</text>
+  </g>
+  <g class="b rise" style="--t:0.45s" font-size="20" fill="#A8C6C0">
+    <text x="66" y="300">Una skill para Claude que convierte el storytelling</text>
+    <text x="66" y="328">en una marca que se entiende en cinco segundos.</text>
+  </g>
+  <g class="rise" style="--t:0.6s">
+    <rect x="64" y="362" width="356" height="46" rx="23" fill="#0B3332" stroke="#2C6B68" stroke-width="1.5"/>
+    <text x="90" y="391" class="m" font-size="17" fill="#F3EFE4"><tspan fill="#D4E56B">/plugin</tspan> install storybrand-b2b</text>
+  </g>
+
+  <!-- landscape -->
+  <clipPath id="frame"><rect width="1200" height="460" rx="24"/></clipPath>
+  <g clip-path="url(#frame)">
+    <path d="M690 460 L690 330 Q 800 286 920 318 T 1200 290 L1200 460 Z" fill="#165553"/>
+    <path d="M690 460 L690 380 Q 850 342 1000 368 T 1200 348 L1200 460 Z" fill="#1B605D"/>
+  </g>
+
+  <!-- the story path -->
+  <path class="road" pathLength="100" d="M 736 432 C 820 410, 800 344, 884 334 S 990 300, 1006 252 S 1066 168, 1110 140" fill="none" stroke="#0B3332" stroke-width="18" stroke-linecap="round"/>
+  <path class="lane" d="M 736 432 C 820 410, 800 344, 884 334 S 990 300, 1006 252 S 1066 168, 1110 140" fill="none" stroke="#F3EFE4" stroke-opacity="0.55" stroke-width="2.5" stroke-dasharray="9 12" stroke-linecap="round"/>
+
+  <!-- guide: compass -->
+  <g transform="translate(956 270)">
+    <circle class="pulse" r="24" fill="none" stroke="#D4E56B" stroke-width="3"/>
+    <circle r="24" fill="#D4E56B"/>
+    <polygon points="0,-15 6,0 0,15 -6,0" fill="#0F4544"/>
+    <circle r="3" fill="#D4E56B"/>
+  </g>
+  <text x="920" y="276" class="d" font-size="14" fill="#D4E56B" text-anchor="end" letter-spacing="1">GUÍA</text>
+
+  <!-- success flag -->
+  <line x1="1112" y1="138" x2="1112" y2="76" stroke="#F3EFE4" stroke-width="4" stroke-linecap="round"/>
+  <path class="flag" d="M1114 78 L1160 92 L1114 106 Z" fill="#7DC79E"/>
+
+  <!-- hero walks the path once -->
+  <g class="mover">
+    <g>
+      <rect x="-9" y="-34" width="18" height="24" rx="8" fill="#F0897D"/>
+      <circle cx="0" cy="-43" r="8" fill="#F3EFE4"/>
+      <animateMotion dur="3.2s" begin="0.5s" fill="freeze" calcMode="spline" keyPoints="0;0.9" keyTimes="0;1" keySplines="0.65 0 0.35 1" path="M 736 432 C 820 410, 800 344, 884 334 S 990 300, 1006 252 S 1066 168, 1110 140"/>
+    </g>
+  </g>
+  <g class="still" transform="translate(1086 160)">
+    <rect x="-9" y="-34" width="18" height="24" rx="8" fill="#F0897D"/>
+    <circle cx="0" cy="-43" r="8" fill="#F3EFE4"/>
+  </g>
+  <text x="722" y="456" class="d" font-size="13" fill="#F0897D" letter-spacing="1">TU CLIENTE</text>
+
+  <!-- what the brand produces -->
+  <g class="rise" style="--t:3.3s">
+    <g transform="translate(760 64) rotate(-6)">
+      <rect width="96" height="116" rx="10" fill="#F3EFE4"/>
+      <rect x="14" y="16" width="68" height="30" rx="4" fill="#7DC79E"/>
+      <rect x="14" y="56" width="56" height="6" rx="3" fill="#C9C2B0"/>
+      <rect x="14" y="68" width="44" height="6" rx="3" fill="#C9C2B0"/>
+      <text x="48" y="100" class="d" font-size="12" fill="#0F4544" text-anchor="middle" letter-spacing="1">WEB</text>
+    </g>
+  </g>
+  <g class="rise" style="--t:3.45s">
+    <g transform="translate(868 54) rotate(3)">
+      <rect width="96" height="116" rx="10" fill="#F3EFE4"/>
+      <rect x="14" y="16" width="68" height="6" rx="3" fill="#0F4544"/>
+      <rect x="14" y="30" width="60" height="6" rx="3" fill="#C9C2B0"/>
+      <rect x="14" y="42" width="64" height="6" rx="3" fill="#C9C2B0"/>
+      <rect x="14" y="54" width="40" height="6" rx="3" fill="#C9C2B0"/>
+      <text x="48" y="100" class="d" font-size="12" fill="#0F4544" text-anchor="middle" letter-spacing="1">PROPUESTA</text>
+    </g>
+  </g>
+  <g class="rise" style="--t:3.6s">
+    <g transform="translate(962 78) rotate(-3)">
+      <rect width="96" height="80" rx="10" fill="#F3EFE4"/>
+      <path d="M12 16 L48 40 L84 16" fill="none" stroke="#F0897D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="66" class="d" font-size="12" fill="#0F4544" text-anchor="middle" letter-spacing="1">CORREO</text>
+    </g>
+  </g>
+</svg>

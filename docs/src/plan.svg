@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-labelledby="t d">
+  <title id="t">Tu plan en tres pasos</title>
+  <desc id="d">Paso uno: instala la skill. Paso dos: cuéntale tu negocio. Paso tres: úsala en todo, de la web a los correos.</desc>
+  <style>
+    {{FONTFACE}}
+    .d { font-family: "Tomorrow SB", "Segoe UI", sans-serif; font-weight: 600; }
+    .b { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .rise { opacity: 0; animation: up 700ms cubic-bezier(0.23, 1, 0.32, 1) var(--t, 0s) forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    .link { stroke-dasharray: 100; stroke-dashoffset: 100; animation: draw 500ms cubic-bezier(0.23, 1, 0.32, 1) var(--t) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise { animation: none; opacity: 1; transform: none; }
+      .link { animation: none; stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <rect width="1200" height="330" rx="24" fill="#0F4544"/>
+  <text x="64" y="72" class="d rise" font-size="30" fill="#F3EFE4" letter-spacing="-0.3">TU PLAN EN TRES PASOS</text>
+
+  <g class="rise" style="--t:0.15s">
+    <rect x="64" y="108" width="336" height="176" rx="18" fill="#165553"/>
+    <circle cx="104" cy="148" r="20" fill="#D4E56B"/>
+    <text x="104" y="155" class="d" font-size="20" fill="#0F4544" text-anchor="middle">1</text>
+    <g transform="translate(340 128)" fill="none" stroke="#D4E56B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="0" width="38" height="30" rx="6"/><path d="M9 10 L15 15 L9 20 M19 21 H28"/>
+    </g>
+    <text x="88" y="208" class="d" font-size="21" fill="#F3EFE4">INSTALA LA SKILL</text>
+    <text x="88" y="238" class="b" font-size="16" fill="#A8C6C0">Un comando en Claude Code.</text>
+    <text x="88" y="260" class="b" font-size="16" fill="#A8C6C0">Nada más que configurar.</text>
+  </g>
+  <path class="link" style="--t:0.6s" pathLength="100" d="M408 196 H424" stroke="#D4E56B" stroke-width="3" stroke-linecap="round"/>
+
+  <g class="rise" style="--t:0.35s">
+    <rect x="432" y="108" width="336" height="176" rx="18" fill="#165553"/>
+    <circle cx="472" cy="148" r="20" fill="#D4E56B"/>
+    <text x="472" y="155" class="d" font-size="20" fill="#0F4544" text-anchor="middle">2</text>
+    <g transform="translate(706 126)" fill="none" stroke="#D4E56B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 2 H36 a4 4 0 0 1 4 4 V24 a4 4 0 0 1 -4 4 H16 L8 34 V28 H4 a4 4 0 0 1 -4 -4 V6 a4 4 0 0 1 4 -4 Z"/><path d="M10 12 H30 M10 19 H24"/>
+    </g>
+    <text x="456" y="208" class="d" font-size="21" fill="#F3EFE4">CUÉNTALE TU NEGOCIO</text>
+    <text x="456" y="238" class="b" font-size="16" fill="#A8C6C0">A quién ayudas, qué le frena</text>
+    <text x="456" y="260" class="b" font-size="16" fill="#A8C6C0">y qué pruebas tienes.</text>
+  </g>
+  <path class="link" style="--t:0.8s" pathLength="100" d="M776 196 H792" stroke="#D4E56B" stroke-width="3" stroke-linecap="round"/>
+
+  <g class="rise" style="--t:0.55s">
+    <rect x="800" y="108" width="336" height="176" rx="18" fill="#D4E56B"/>
+    <circle cx="840" cy="148" r="20" fill="#0F4544"/>
+    <text x="840" y="155" class="d" font-size="20" fill="#D4E56B" text-anchor="middle">3</text>
+    <g transform="translate(1070 122)" fill="none" stroke="#0F4544" stroke-width="2.5" stroke-linejoin="round">
+      <rect x="10" y="0" width="30" height="36" rx="4"/><rect x="0" y="6" width="30" height="36" rx="4" fill="#D4E56B"/>
+    </g>
+    <text x="824" y="208" class="d" font-size="21" fill="#0F4544">ÚSALA EN TODO</text>
+    <text x="824" y="238" class="b" font-size="16" fill="#1F4B47">Web, pitch, propuestas y</text>
+    <text x="824" y="260" class="b" font-size="16" fill="#1F4B47">correos con el mismo mensaje.</text>
+  </g>
+</svg>

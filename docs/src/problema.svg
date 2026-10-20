@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-labelledby="t d">
+  <title id="t">Antes y después</title>
+  <desc id="d">Animación que alterna un texto donde la empresa habla de sí misma con uno donde el cliente es el héroe y la empresa es el guía.</desc>
+  <style>
+    {{FONTFACE}}
+    .d { font-family: "Tomorrow SB", "Segoe UI", sans-serif; font-weight: 600; }
+    .b { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    @keyframes a { 0%, 44% { opacity: 1; } 50%, 94% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes b { 0%, 44% { opacity: 0; } 50%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes bar { 0% { transform: scaleX(0); } 50% { transform: scaleX(1); } 50.01% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+    .antes { animation: a 14s ease-in-out infinite; }
+    .despues { opacity: 0; animation: b 14s ease-in-out infinite; }
+    .progress { transform-box: fill-box; transform-origin: left center; animation: bar 14s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .antes { animation: none; opacity: 0; }
+      .despues { animation: none; opacity: 1; }
+      .progress { animation: none; }
+    }
+  </style>
+
+  <rect width="1200" height="380" rx="24" fill="#0F4544"/>
+
+  <g class="antes">
+    <rect x="64" y="44" width="104" height="32" rx="16" fill="#F0897D"/>
+    <text x="116" y="66" class="d" font-size="15" fill="#0F4544" text-anchor="middle" letter-spacing="1.5">ANTES</text>
+    <text x="186" y="69" class="d" font-size="24" fill="#F3EFE4">LA EMPRESA HABLA DE SÍ MISMA</text>
+    <g class="b" font-size="22" fill="#F3EFE4">
+      <text x="64" y="136">Somos una firma con más de diez años de experiencia en ingeniería, interventoría</text>
+      <text x="64" y="170">y sostenibilidad, con un equipo altamente calificado y comprometido con la</text>
+      <text x="64" y="204">excelencia. Ofrecemos soluciones integrales para todo tipo de proyectos.</text>
+    </g>
+    <g class="b" font-size="16" fill="#F0897D" font-weight="600">
+      <g transform="translate(64 282)"><circle r="11" fill="#F0897D"/><path d="M-4 -4 L4 4 M4 -4 L-4 4" stroke="#0F4544" stroke-width="2.4" stroke-linecap="round"/></g>
+      <text x="84" y="288">Habla de la empresa</text>
+      <g transform="translate(290 282)"><circle r="11" fill="#F0897D"/><path d="M-4 -4 L4 4 M4 -4 L-4 4" stroke="#0F4544" stroke-width="2.4" stroke-linecap="round"/></g>
+      <text x="310" y="288">Adjetivos sin prueba</text>
+      <g transform="translate(524 282)"><circle r="11" fill="#F0897D"/><path d="M-4 -4 L4 4 M4 -4 L-4 4" stroke="#0F4544" stroke-width="2.4" stroke-linecap="round"/></g>
+      <text x="544" y="288">Sin plan</text>
+      <g transform="translate(652 282)"><circle r="11" fill="#F0897D"/><path d="M-4 -4 L4 4 M4 -4 L-4 4" stroke="#0F4544" stroke-width="2.4" stroke-linecap="round"/></g>
+      <text x="672" y="288">Sin siguiente paso</text>
+    </g>
+  </g>
+
+  <g class="despues">
+    <rect x="64" y="44" width="128" height="32" rx="16" fill="#D4E56B"/>
+    <text x="128" y="66" class="d" font-size="15" fill="#0F4544" text-anchor="middle" letter-spacing="1.5">DESPUÉS</text>
+    <text x="210" y="69" class="d" font-size="24" fill="#F3EFE4">EL CLIENTE ES EL HÉROE</text>
+    <g class="b" font-size="22" fill="#F3EFE4">
+      <text x="64" y="136">Su equipo necesita certificar el edificio sin frenar la operación ni perseguir</text>
+      <text x="64" y="170">documentos entre áreas. Lo acompañamos en tres pasos: diagnóstico, plan de</text>
+      <text x="64" y="204">puntos con responsables y revisión final. <tspan fill="#A8C6C0">[Caso similar: cliente, año, resultado.]</tspan></text>
+      <text x="64" y="238" fill="#D4E56B">¿Agendamos 30 minutos esta semana?</text>
+    </g>
+    <g class="b" font-size="16" fill="#D4E56B" font-weight="600">
+      <g transform="translate(64 282)"><circle r="11" fill="#D4E56B"/><path d="M-5 0 L-1.5 3.5 L5 -3.5" fill="none" stroke="#0F4544" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="84" y="288">Abre con el cliente</text>
+      <g transform="translate(290 282)"><circle r="11" fill="#D4E56B"/><path d="M-5 0 L-1.5 3.5 L5 -3.5" fill="none" stroke="#0F4544" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="310" y="288">Plan en pasos</text>
+      <g transform="translate(470 282)"><circle r="11" fill="#D4E56B"/><path d="M-5 0 L-1.5 3.5 L5 -3.5" fill="none" stroke="#0F4544" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="490" y="288">Prueba verificable</text>
+      <g transform="translate(680 282)"><circle r="11" fill="#D4E56B"/><path d="M-5 0 L-1.5 3.5 L5 -3.5" fill="none" stroke="#0F4544" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="700" y="288">Llamado a la acción</text>
+    </g>
+  </g>
+
+  <rect x="64" y="328" width="1072" height="6" rx="3" fill="#165553"/>
+  <rect class="progress" x="64" y="328" width="1072" height="6" rx="3" fill="#D4E56B"/>
+</svg>
