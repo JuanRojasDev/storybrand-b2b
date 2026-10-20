@@ -1,83 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-labelledby="t d">
-  <title id="t">Resultados de las pruebas</title>
-  <desc id="d">Primera corrida de la versión pública, 16 criterios en 3 documentos. Con la skill: 93,8 por ciento. Sin la skill: 62,5 por ciento. Por categoría, con y sin la skill: plan en pasos 100 y 0; abre con el cliente 100 y 75; llamado a la acción 100 y 67; cero datos inventados 100 y 67; extensión adecuada 50 y 0; formato y datos obligatorios 100 y 100.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 570" width="1200" height="570" role="img" aria-labelledby="t d">
+  <title id="t">Qué tanto ayuda la skill</title>
+  <desc id="d">Criterios cumplidos en la primera corrida de la versión pública, 16 criterios en 3 documentos. Sin la skill: 62,5 por ciento, rango probable de 39 a 82 por ciento. Con la skill: 93,8 por ciento, rango probable de 72 a 99 por ciento. Los rangos se cruzan: la mejora es prometedora, pero todavía no es concluyente.</desc>
   <style>
     @font-face { font-family: "Tomorrow SB"; font-weight: 600; src: url(data:font/woff;base64,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) format("woff"); }
     .d { font-family: "Tomorrow SB", "Segoe UI", sans-serif; font-weight: 600; }
     .b { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .bar { transform-box: fill-box; transform-origin: left center; transform: scaleX(0); animation: grow 1000ms cubic-bezier(0.23, 1, 0.32, 1) var(--t) forwards; }
-    @keyframes grow { to { transform: scaleX(1); } }
-    .val { opacity: 0; animation: fade 400ms ease calc(var(--t) + 700ms) forwards; }
+    .bar { transform-box: fill-box; transform-origin: center bottom; transform: scaleY(0); animation: grow 1100ms cubic-bezier(0.23, 1, 0.32, 1) var(--t) forwards; }
+    @keyframes grow { to { transform: scaleY(1); } }
+    .late { opacity: 0; animation: fade 500ms ease var(--t) forwards; }
     @keyframes fade { to { opacity: 1; } }
     .rise { opacity: 0; animation: up 700ms cubic-bezier(0.23, 1, 0.32, 1) var(--t, 0s) forwards; }
     @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) {
       .bar { animation: none; transform: none; }
-      .val, .rise { animation: none; opacity: 1; transform: none; }
+      .late, .rise { animation: none; opacity: 1; transform: none; }
     }
   </style>
 
-  <rect width="1200" height="620" rx="24" fill="#0F4544"/>
+  <rect width="1200" height="570" rx="24" fill="#0F4544"/>
 
-  <text x="64" y="72" class="d rise" font-size="30" fill="#F3EFE4" letter-spacing="-0.3">RESULTADOS DE LAS PRUEBAS</text>
-  <text x="64" y="102" class="b rise" style="--t:0.1s" font-size="16" fill="#A8C6C0">Versión pública, primera corrida · 3 documentos · 16 criterios verificables</text>
+  <text x="64" y="72" class="d rise" font-size="30" fill="#F3EFE4" letter-spacing="-0.3">QUÉ TANTO AYUDA LA SKILL</text>
+  <text x="64" y="102" class="b rise" style="--t:0.1s" font-size="16" fill="#A8C6C0">Criterios cumplidos · 3 documentos · 16 criterios verificables · primera corrida de la versión pública</text>
 
-  <g class="rise" style="--t:0.2s" text-anchor="end">
-    <text x="930" y="84" class="d" font-size="52" fill="#F3EFE4" fill-opacity="0.72">62,5 %</text>
-    <text x="930" y="110" class="b" font-size="14" fill="#A8C6C0">sin la skill</text>
-    <text x="1136" y="84" class="d" font-size="52" fill="#D4E56B">93,8 %</text>
-    <text x="1136" y="110" class="b" font-size="14" fill="#A8C6C0">con la skill</text>
+  <!-- scale: baseline y=470, 100 % = 300 px -->
+  <g class="b" font-size="13" fill="#7FA59E" text-anchor="end">
+    <line x1="230" y1="395" x2="720" y2="395" stroke="#2C6B68" stroke-dasharray="4 6"/><text x="218" y="399">25 %</text>
+    <line x1="230" y1="320" x2="720" y2="320" stroke="#2C6B68" stroke-dasharray="4 6"/><text x="218" y="324">50 %</text>
+    <line x1="230" y1="245" x2="720" y2="245" stroke="#2C6B68" stroke-dasharray="4 6"/><text x="218" y="249">75 %</text>
   </g>
 
-  <g class="b rise" style="--t:0.3s" font-size="14" fill="#A8C6C0">
-    <rect x="420" y="146" width="14" height="14" rx="3" fill="#D4E56B"/><text x="442" y="158">Con la skill</text>
-    <rect x="550" y="146" width="14" height="14" rx="3" fill="#7FA59E"/><text x="572" y="158">Sin la skill</text>
+  <!-- without the skill: 62.5 %, Wilson 95 % interval 38.6–81.5 -->
+  <rect class="bar" style="--t:0.3s" x="300" y="282.5" width="140" height="187.5" rx="10" fill="#7FA59E"/>
+  <g class="late" style="--t:1.2s" stroke="#F3EFE4" stroke-width="2.5" stroke-linecap="round">
+    <line x1="370" y1="354.2" x2="370" y2="225.5"/><line x1="358" y1="354.2" x2="382" y2="354.2"/><line x1="358" y1="225.5" x2="382" y2="225.5"/>
+  </g>
+  <text x="370" y="206" class="d late" style="--t:1.2s" font-size="38" fill="#F3EFE4" text-anchor="middle">62,5 %</text>
+
+  <!-- with the skill: 93.75 %, Wilson 95 % interval 71.7–98.9 -->
+  <rect class="bar" style="--t:0.5s" x="520" y="188.75" width="140" height="281.25" rx="10" fill="#D4E56B"/>
+  <g class="late" style="--t:1.4s" stroke="#F3EFE4" stroke-width="2.5" stroke-linecap="round">
+    <line x1="590" y1="254.9" x2="590" y2="173.3"/><line x1="578" y1="254.9" x2="602" y2="254.9"/><line x1="578" y1="173.3" x2="602" y2="173.3"/>
+  </g>
+  <text x="590" y="154" class="d late" style="--t:1.4s" font-size="38" fill="#D4E56B" text-anchor="middle">93,8 %</text>
+
+  <line x1="230" y1="470" x2="720" y2="470" stroke="#A8C6C0" stroke-width="1.5"/>
+  <g text-anchor="middle">
+    <text x="370" y="500" class="d" font-size="17" fill="#F3EFE4" letter-spacing="0.5">SIN LA SKILL</text>
+    <text x="370" y="522" class="b" font-size="14" fill="#A8C6C0">10 de 16 criterios · rango 39–82 %</text>
+    <text x="590" y="500" class="d" font-size="17" fill="#D4E56B" letter-spacing="0.5">CON LA SKILL</text>
+    <text x="590" y="522" class="b" font-size="14" fill="#A8C6C0">15 de 16 criterios · rango 72–99 %</text>
   </g>
 
-  <!-- rows: label, criteria count, bars (640 px = 100 %) -->
-  <g class="b">
-    <text x="64" y="204" font-size="17" fill="#F3EFE4">Plan en pasos</text>
-    <text x="64" y="224" font-size="13" fill="#A8C6C0">1 criterio</text>
-    <rect class="bar" style="--t:0.5s" x="420" y="188" width="640" height="18" rx="4" fill="#D4E56B"/>
-    <rect class="bar" style="--t:0.56s" x="420" y="212" width="0" height="18" rx="4" fill="#7FA59E"/>
-    <text class="d val" style="--t:0.5s" x="1070" y="202" font-size="14" fill="#D4E56B">100 %</text>
-    <text class="d val" style="--t:0.56s" x="430" y="226" font-size="14" fill="#A8C6C0">0 %</text>
-
-    <text x="64" y="268" font-size="17" fill="#F3EFE4">Abre con el cliente</text>
-    <text x="64" y="288" font-size="13" fill="#A8C6C0">4 criterios</text>
-    <rect class="bar" style="--t:0.62s" x="420" y="252" width="640" height="18" rx="4" fill="#D4E56B"/>
-    <rect class="bar" style="--t:0.68s" x="420" y="276" width="480" height="18" rx="4" fill="#7FA59E"/>
-    <text class="d val" style="--t:0.62s" x="1070" y="266" font-size="14" fill="#D4E56B">100 %</text>
-    <text class="d val" style="--t:0.68s" x="910" y="290" font-size="14" fill="#A8C6C0">75 %</text>
-
-    <text x="64" y="332" font-size="17" fill="#F3EFE4">Llamado a la acción concreto</text>
-    <text x="64" y="352" font-size="13" fill="#A8C6C0">3 criterios</text>
-    <rect class="bar" style="--t:0.74s" x="420" y="316" width="640" height="18" rx="4" fill="#D4E56B"/>
-    <rect class="bar" style="--t:0.8s" x="420" y="340" width="427" height="18" rx="4" fill="#7FA59E"/>
-    <text class="d val" style="--t:0.74s" x="1070" y="330" font-size="14" fill="#D4E56B">100 %</text>
-    <text class="d val" style="--t:0.8s" x="857" y="354" font-size="14" fill="#A8C6C0">67 %</text>
-
-    <text x="64" y="396" font-size="17" fill="#F3EFE4">Cero datos inventados</text>
-    <text x="64" y="416" font-size="13" fill="#A8C6C0">3 criterios</text>
-    <rect class="bar" style="--t:0.86s" x="420" y="380" width="640" height="18" rx="4" fill="#D4E56B"/>
-    <rect class="bar" style="--t:0.92s" x="420" y="404" width="427" height="18" rx="4" fill="#7FA59E"/>
-    <text class="d val" style="--t:0.86s" x="1070" y="394" font-size="14" fill="#D4E56B">100 %</text>
-    <text class="d val" style="--t:0.92s" x="857" y="418" font-size="14" fill="#A8C6C0">67 %</text>
-
-    <text x="64" y="460" font-size="17" fill="#F3EFE4">Extensión adecuada</text>
-    <text x="64" y="480" font-size="13" fill="#A8C6C0">2 criterios</text>
-    <rect class="bar" style="--t:0.98s" x="420" y="444" width="320" height="18" rx="4" fill="#D4E56B"/>
-    <rect class="bar" style="--t:1.04s" x="420" y="468" width="0" height="18" rx="4" fill="#7FA59E"/>
-    <text class="d val" style="--t:0.98s" x="750" y="458" font-size="14" fill="#D4E56B">50 %</text>
-    <text class="d val" style="--t:1.04s" x="430" y="482" font-size="14" fill="#A8C6C0">0 %</text>
-
-    <text x="64" y="524" font-size="17" fill="#F3EFE4">Formato y datos obligatorios</text>
-    <text x="64" y="544" font-size="13" fill="#A8C6C0">3 criterios</text>
-    <rect class="bar" style="--t:1.1s" x="420" y="508" width="640" height="18" rx="4" fill="#D4E56B"/>
-    <rect class="bar" style="--t:1.16s" x="420" y="532" width="640" height="18" rx="4" fill="#7FA59E"/>
-    <text class="d val" style="--t:1.1s" x="1070" y="522" font-size="14" fill="#D4E56B">100 %</text>
-    <text class="d val" style="--t:1.16s" x="1070" y="546" font-size="14" fill="#A8C6C0">100 %</text>
+  <g class="rise" style="--t:1.7s">
+    <rect x="780" y="150" width="356" height="320" rx="18" fill="#165553"/>
+    <text x="808" y="192" class="d" font-size="18" fill="#F3EFE4" letter-spacing="0.5">CÓMO LEERLO</text>
+    <g stroke="#F3EFE4" stroke-width="2.5" stroke-linecap="round" transform="translate(816 222)">
+      <line x1="0" y1="-14" x2="0" y2="14"/><line x1="-8" y1="-14" x2="8" y2="-14"/><line x1="-8" y1="14" x2="8" y2="14"/>
+    </g>
+    <g class="b" font-size="15" fill="#E6EFEC">
+      <text x="836" y="218">La línea sobre cada barra es el</text>
+      <text x="836" y="238">rango probable del resultado (95 %).</text>
+      <text x="808" y="284">Con tan pocas pruebas, los rangos</text>
+      <text x="808" y="304">se cruzan: la mejora es prometedora,</text>
+      <text x="808" y="324">pero todavía no es concluyente.</text>
+      <text x="808" y="370" fill="#F0897D">Dónde falló: un correo salió</text>
+      <text x="808" y="390" fill="#F0897D">demasiado largo. Se ajustó la regla</text>
+      <text x="808" y="410" fill="#F0897D">y en la siguiente corrida cumplió.</text>
+    </g>
   </g>
 
-  <text x="64" y="590" class="b rise" style="--t:1.4s" font-size="14" fill="#A8C6C0">Una corrida por caso, evaluada por el autor. Después se ajustó la extensión de los correos. Pocas pruebas: es una señal, no una garantía.</text>
+  <text x="64" y="552" class="b rise" style="--t:1.9s" font-size="14" fill="#A8C6C0">Una corrida por caso, evaluada por el autor. Más pruebas harán los rangos más estrechos; ninguna herramienta acierta siempre.</text>
 </svg>
